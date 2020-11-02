@@ -1,0 +1,11 @@
+.header {
+  background-color: blue;
+}
+.header .logo {
+  width: 90px;
+  height: 34px;
+}
+.header .navBar .whatsapp_logo {
+  width: 32px;
+  height: 32px;
+}
