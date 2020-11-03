@@ -3,21 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/stylesheet/style.css">
   <title>Document</title>
 </head>
 <body>
 
   <div class="container">
     <header class="header">
-      <img src="logo.svg" alt="hotels.ng_logo" class="logo">
+      <img src="./assets/icons_and_logos/logo.svg" alt="hotels.ng_logo" class="logo">
       <nav class="navBar">
-        <img src="Whatsapp-logo.png" alt="WhatsApp_logo" class="whatsapp_logo">
+        <ul class="navUl">
+          <img src="./assets/icons_and_logos/Whatsapp-logo.png" alt="WhatsApp_logo" class="whatsapp_logo">
         <div class="contactDiv">
-          <img src="contact_icon1.jpg" alt="customer_care_contact">
-          <p class="contactText">You can call us to book your hotel</p>
-          <p class="contactNumber">+234 700 880 8800</p><button type="button"></button>
+          <img src="./assets/icons_and_logos/contact-icon.jpg" alt="customer_care_contact">
+          <li class="contactLi navLi">
+            <span class="contactText">You can call us to book your hotel</span>
+          </li>
+          <li class="contactsLi navLi">
+            <span class="contactNumber">+234 700 880 8800</span><button type="button" class="contactButton"></button>
+          </li>
         </div>
+        <div class="currencyDiv">
+          <img src="./assets/icons_and_logos/Nigerian-flag.png" alt="Nigerian_flag" class="flag">
+          <li class="nairaLi navLi">
+            <span>₦</span>
+            <button type="button" class="currencyButton btn"></button>
+          </li>
+        </div>
+        <div class="accountDiv">
+          <img src="./assets/icons_and_logos/account-icon.svg" alt="personal_account" class="avatar">
+          <li class="accountLi navLi">
+            <span class="accountText">Account</span>
+            <button type="button" class="accountButton btn"></button>
+          </li>
+        </div>
+      </ul>
       </nav>
     </header>
   </div>

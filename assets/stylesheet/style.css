@@ -1,0 +1,24 @@
+.header {
+  background-color: blue;
+  display: flex;
+}
+.navUl >  div {
+  display: inline-block;
+  list-style: none;
+} 
+.header .logo {
+  width: 90px;
+  height: 34px;
+}
+.header .navBar .whatsapp_logo {
+  width: 32px;
+  height: 32px;
+}
+.header .accountDiv .avatar {
+  width: 30px;
+  height: 30px;
+}
+.header .currencyDiv .flag {
+  width: 27px;
+  height: 19;
+}
