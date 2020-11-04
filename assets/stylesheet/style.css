@@ -1,24 +1,99 @@
-.header {
-  background-color: blue;
-  display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* font-family: ; */
 }
-.navUl >  div {
-  display: inline-block;
+.header {
+  background-color: #00aeff;
+  /* display: flex; */
+}
+.navUl {
+  /* display: inline-block; */
   list-style: none;
+  display: flex;
 } 
 .header .logo {
   width: 90px;
-  height: 34px;
+  height: 34px; 
 }
 .header .navBar .whatsapp_logo {
   width: 32px;
-  height: 32px;
+  height: 32px; 
 }
 .header .accountDiv .avatar {
   width: 30px;
-  height: 30px;
+  height: 30px; 
 }
 .header .currencyDiv .flag {
   width: 27px;
   height: 19;
+}
+.background {
+  background-image: url("/assets/images/background-picture.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51,51,51,0.5);
+}
+.text {
+  color: white;
+  text-align: center;
+  padding: 6rem;
+}
+.formParent {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-gap: 5px;
+  padding: 1rem;
+  width: 70%;
+  height: 100px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 4;
+  position: sticky;
+  top: 50rem;
+  margin: auto;
+}
+.searchInput{
+  position: relative;
+  width: 450px;
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  font-size: 12px;
+  grid-column: 1;
+}
+.formParent i {
+  position: absolute;
+  padding: 0 0.5rem;
+  left: 20px;
+  bottom: 40px;
+  z-index: 5;
+}
+.search-icon {
+  background-color: transparent;
+  color: #bbb;
+}
+.dateInput {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 12px;
+  grid-column: 2;
+}
+.findButton {
+  grid-column: 3;
+  background-color: #00aeff;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
 }
