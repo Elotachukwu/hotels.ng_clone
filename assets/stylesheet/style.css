@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  /* font-family: ; */
+  text-decoration: none;
 }
 .header {
   background-color: #00aeff;
@@ -33,7 +33,7 @@
 .background {
   background-image: url("/assets/images/background-picture.jpg");
   background-size: cover;
-  position: relative;
+  background-position: bottom;
   z-index: 2;
 }
 .overlay {
@@ -46,35 +46,40 @@
   text-align: center;
   padding: 6rem;
 }
+.homepageDiv {
+  margin: 0 10rem 0 10rem;
+}
+.formsParent {
+  position: sticky;
+  z-index: 3;
+  bottom: 160px;
+  margin-bottom: 1rem;
+}
 .formParent {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
   grid-gap: 5px;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 70%;
-  height: 100px;
+  background-color: white;
   box-sizing: border-box;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  z-index: 4;
-  position: sticky;
-  top: 50rem;
   margin: auto;
 }
 .searchInput{
   position: relative;
   width: 450px;
-  height: 40px;
+  height: 35px;
   border: 1px solid #aaa;
   border-radius: 5px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2.5rem;
   font-size: 12px;
   grid-column: 1;
 }
 .formParent i {
   position: absolute;
-  padding: 0 0.5rem;
-  left: 20px;
-  bottom: 40px;
+  left: 220px;
+  bottom: 33px;
   z-index: 5;
 }
 .search-icon {
@@ -83,7 +88,7 @@
 }
 .dateInput {
   width: 250px;
-  height: 40px;
+  height: 35px;
   border: 1px solid #aaa;
   border-radius: 5px;
   padding: 0.5rem;
@@ -95,5 +100,51 @@
   background-color: #00aeff;
   color: white;
   border-radius: 5px;
-  height: 40px;
+  height: 35px;
 }
+.textDiv {
+  text-align: center;
+  line-height: 2rem;
+  color: #4f4f4f;
+  margin-bottom: 1rem;
+}
+.line {
+  background-color: #00aeff;
+  width: 3rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 0.1rem;
+  border-radius: 50px;
+}
+.cities ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0rem;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+.cities li {
+  border: 1px solid #00aeff;
+  border-radius: 3px;
+  padding: 0.3rem;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 130px;
+}
+.cities .state {
+  color: #00aeff;
+  font-weight: bold;
+}
+.cities p {
+  color: #4f4f4f;
+}
+.cities li:hover {
+  background: #00aeff;
+  color: white;
+}
+/* .cities h4:hover {
+  color: white;
+}
+.cities p:hover {
+  color: white;
+} */
