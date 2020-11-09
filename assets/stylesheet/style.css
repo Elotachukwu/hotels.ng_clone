@@ -7,7 +7,7 @@
 }
 .header {
   background-color: #00aeff;
-  /* display: flex; */
+  display: flex;
 }
 .navUl {
   /* display: inline-block; */
@@ -29,6 +29,28 @@
 .header .currencyDiv .flag {
   width: 27px;
   height: 19;
+}
+.navUl i .fa-whatsapp {
+  background-color: green;
+  color: white;
+}
+.navUl i .fa-caret-down {
+  color: white;
+}
+.navUl i .fa-user {
+  color: white;
+}
+.navUl button {
+  border-radius: 50px;
+  background-color: #084482;
+  width: 180px;
+  height: 35px;
+  font-size: 0.7rem;
+  color: #00aeff;
+}
+.navUl button .contactNumber {
+  color: white;
+  font-size: 1rem;
 }
 .background {
   background-image: url("/assets/images/background-picture.jpg");
@@ -355,4 +377,14 @@
   border-width: 100px;
   color: #fafafa;
   background-color: #bdbdbd
+}
+.rights {
+  display: flex;
+  justify-content: space-around;
+}
+.certified {
+  display: flex;
+}
+.certified img {
+  width: 50px;
 }
