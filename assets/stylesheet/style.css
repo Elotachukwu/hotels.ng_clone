@@ -5,41 +5,47 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+/* The Header */
 .header {
   background-color: #00aeff;
-  /* display: flex; */
-}
-.header svg {
-  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 .navUl {
-  /* display: inline-block; */
   list-style: none;
   display: flex;
 } 
 .header .logo {
   width: 90px;
-  height: 34px; 
+  height: 34px;
+  background-color: white;
+  align-self: center; 
 }
-.header .currencyDiv .flag {
-  width: 27px;
-  height: 19;
+.header .flag {
+  width: 50px;
+  /* height: 40px; */
+  padding-right: 0.5rem;
 }
 .navUl .fa-whatsapp {
-  background-color: green;
   color: white;
+  border-right: 1px solid white;
+  padding: 0.5rem 1rem;
+  font-size: 30px;
 }
 .navUl .fa-caret-down {
   color: white;
 }
 .navUl .fa-user {
   color: white;
+  font-size: 30px;
+  padding-right: 0.5rem;
 }
 .navUl button {
   border-radius: 50px;
   background-color: #084482;
   width: 250px;
-  height: 45px;
+  height: 35px;
   font-size: 0.7rem;
   color: #00aeff;
   position: relative;
@@ -53,7 +59,27 @@
   border-radius: 50%;
   position: absolute;
   z-index: 2;
+  width: 35px;
 }
+.contactDiv {
+  padding: 0.5rem 1rem;
+  border-right: 1px solid white;
+}
+.currencyDiv {
+  padding: 1rem 1rem;
+  border-right: 1px solid white;
+  display: flex;
+  color: white;
+  align-self: center;
+}
+.accountDiv {
+  padding: 0.5rem 1rem;
+  display: flex;
+  color: white;
+  align-self: center;
+}
+
+/* The Homepage */
 .background {
   background-image: url("/assets/images/background-picture.jpg");
   background-size: cover;
@@ -151,7 +177,6 @@
 .cities li {
   border: 1px solid #00aeff;
   border-radius: 3px;
-  padding: 0.3rem;
   text-align: center;
   line-height: 1.5rem;
   width: 70%;
@@ -163,16 +188,10 @@
 .cities p {
   color: #4f4f4f;
 }
-.cities li:hover {
+.cities li:hover * {
   background: #00aeff;
   color: white;
 }
-/* .cities h4:hover {
-  color: white;
-}
-.cities p:hover {
-  color: white;
-} */
 
 .topDeals {
   margin: 0 10rem;
