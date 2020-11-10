@@ -7,7 +7,10 @@
 }
 .header {
   background-color: #00aeff;
-  display: flex;
+  /* display: flex; */
+}
+.header svg {
+  color: white;
 }
 .navUl {
   /* display: inline-block; */
@@ -18,39 +21,38 @@
   width: 90px;
   height: 34px; 
 }
-.header .navBar .whatsapp_logo {
-  width: 32px;
-  height: 32px; 
-}
-.header .accountDiv .avatar {
-  width: 30px;
-  height: 30px; 
-}
 .header .currencyDiv .flag {
   width: 27px;
   height: 19;
 }
-.navUl i .fa-whatsapp {
+.navUl .fa-whatsapp {
   background-color: green;
   color: white;
 }
-.navUl i .fa-caret-down {
+.navUl .fa-caret-down {
   color: white;
 }
-.navUl i .fa-user {
+.navUl .fa-user {
   color: white;
 }
 .navUl button {
   border-radius: 50px;
   background-color: #084482;
-  width: 180px;
-  height: 35px;
+  width: 250px;
+  height: 45px;
   font-size: 0.7rem;
   color: #00aeff;
+  position: relative;
+  padding-left: 1rem;
 }
 .navUl button .contactNumber {
   color: white;
   font-size: 1rem;
+}
+.contactDiv .girlCC {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
 }
 .background {
   background-image: url("/assets/images/background-picture.jpg");
