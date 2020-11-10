@@ -276,6 +276,12 @@
   border-radius: 3px;
   height: 35px;
 }
+.logosLinx {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0 10rem 3rem 10rem;
+}
 .moreBooking {
   margin-bottom: 3rem;
 }
@@ -382,9 +388,19 @@
   display: flex;
   justify-content: space-around;
 }
+.copyright {
+  display: flex;
+  color: #bdbdbd;
+}
+.copyright i {
+  margin: 0 0.5rem;
+  color: #bdbdbd;
+}
 .certified {
   display: flex;
+  color: #bdbdbd;
 }
 .certified img {
   width: 50px;
+  margin: 0 0.5rem;
 }
