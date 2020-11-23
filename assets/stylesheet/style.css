@@ -1,24 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* font-family: ; */
+}
 .header {
   background-color: blue;
-  display: flex;
+  /* display: flex; */
 }
-.navUl >  div {
-  display: inline-block;
+.navUl {
+  /* display: inline-block; */
   list-style: none;
+  display: flex;
 } 
 .header .logo {
   width: 90px;
-  height: 34px;
+  height: 34px; 
 }
 .header .navBar .whatsapp_logo {
   width: 32px;
-  height: 32px;
+  height: 32px; 
 }
 .header .accountDiv .avatar {
   width: 30px;
-  height: 30px;
+  height: 30px; 
 }
 .header .currencyDiv .flag {
   width: 27px;
   height: 19;
 }
+.background {
+  background-image: url("/assets/images/background-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  /* max-height: 50vh; */
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51,51,51,0.5);
+  /* padding: 5rem; */
+}
+.text {
+  color: white;
+  text-align: center;
+  padding: 10rem;
+} 
