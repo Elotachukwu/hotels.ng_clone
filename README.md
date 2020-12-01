@@ -13,7 +13,7 @@ Chiagoziem Ede
 * [Twitter](https://twitter.com/elotachukwu)
 
 ## Visual
-![This is a screenshot of the work.](/assets/images/hotels.ng-clone-preview.png)
+![the Home Page of hotels.ng_clone.](./assets/images/hotels.ng-clone-preview.PNG "First Page.")
 
 ## Languages Used
 * HTML
